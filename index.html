@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page - Vanessa Detone Pereira Menezes</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Segoe UI", Arial, sans-serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background: radial-gradient(circle at top,#0A0F1C,#050814);
+            color: #E5EAF2;
+            line-height: 1.8;
+            overflow-x: hidden;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            background: linear-gradient(135deg,#0A0F1C,#0F1B33);
+            border-bottom: 1px solid #1F2A44;
+        }
+
+        header img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #4DA3FF;
+            box-shadow: 0 0 30px rgba(77,163,255,.4);
+            margin-bottom: 18px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: #A9B4C7;
+            font-size: 1.1rem;
+        }
+
+        nav ul {
+            list-style: none;
+            margin-top: 25px;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 8px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #E5EAF2;
+            padding: 10px 18px;
+            border-radius: 30px;
+            transition: .3s;
+            font-weight: 600;
+        }
+
+        nav a:hover {
+            background: #4DA3FF;
+            color: #0A0F1C;
+            transform: translateY(-2px);
+        }
+
+        main {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        section, aside {
+            background: linear-gradient(135deg,#0F1B33,#0B1220);
+            padding: 30px;
+            margin-bottom: 25px;
+            border-radius: 16px;
+            border: 1px solid #1F2A44;
+            box-shadow: 0 10px 30px rgba(0,0,0,.4);
+            scroll-margin-top: 100px;
+        }
+
+        section h2, aside h2 {
+            color: #4DA3FF;
+            margin-bottom: 18px;
+            font-size: 28px;
+            border-left: 4px solid #4DA3FF;
+            padding-left: 10px;
+        }
+
+        section p, aside p {
+            margin-bottom: 15px;
+            color: #D6DEEA;
+            text-align: justify;
+        }
+
+        section strong {
+            color: #4DA3FF;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+            color: #D6DEEA;
+        }
+
+        article {
+            background: linear-gradient(135deg,#0A0F1C,#0F1B33);
+            border-left: 4px solid #4DA3FF;
+            padding: 20px;
+            margin-top: 18px;
+            border-radius: 12px;
+            transition: .3s;
+        }
+
+        article:hover {
+            transform: translateY(-5px);
+        }
+
+        article h3 {
+            color: #4DA3FF;
+            margin-bottom: 8px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            margin-top: 30px;
+            background: #050814;
+            border-top: 1px solid #1F2A44;
+            color: #A9B4C7;
+        }
+
+        footer p {
+            margin-bottom: 5px;
+        }
+
+        footer a {
+            color: #4DA3FF;
+            text-decoration: none;
+        }
+
+        /* RESPONSIVO */
+        @media(max-width:768px){
+            header h1 {
+                font-size: 1.8rem;
+            }
+
+            header img {
+                width: 120px;
+                height: 120px;
+            }
+
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+
+            section, aside {
+                padding: 22px;
+            }
+
+            main {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+<header>
+<img src="Foto-Vanessa.jpg" alt="Foto de Vanessa">
+<h1>Vanessa Detone Pereira Menezes</h1>
+<p>Cloud Infraestrutura AWS Docker Suporte Técnico</p>
+<p><em>Transformando desafios em soluções por meio da tecnologia.</em></p>
+<nav>
+<ul>
+<li><a href="#sobre">Sobre mim</a></li>
+<li><a href="#habilidades">Habilidades</a></li>
+<li><a href="#projetos">Projetos</a></li>
+<li><a href="#extras">Extras</a></li>
+<li><a href="#contato">Contato</a></li>
+</ul>
+</nav>
+</header>
+
+<main>
+<section id="sobre">
+<h2>Sobre Mim</h2>
+<p>Sou estudante de Análise e Desenvolvimento de Sistemas na Unicesumar com foco em infraestrutura de Tl e Cloud Computing.</p>
+<p>Possuo sólida experiência no atendimento a usuários, resolução de incidentes, gestão de chamados e suporte a ambientes críticos, com atuação em infraestrutura de Tl envolvendo Windows 10/11, redes TCP/IP, Active Directory, VPN, hardware e periféricos.</p>
+<p>Ao longo da minha trajetória, desenvolvi conhecimentos em <strong>cloud computing</strong> e <strong>infraestrutura como código (laC)</strong>, com vivência prática em ambientes AWS (EC2, S3, IAM e VPC) e utilização de Docker para criação e gerenciamento de containers.</p>
+</section>
+
+<section id="habilidades">
+<h2>Habilidades</h2>
+<ul>
+<li>Suporte Técnico N1/N2</li>
+<li>Windows / Windows Server</li>
+<li>Microsoft 365</li>
+<li>Redes TCP/IP e VPN</li>
+<li>Active Directory</li>
+<li>AWS (EC2, S3, IAM, VPC)</li>
+<li>Docker</li>
+<li>Grafana</li>
+<li>MySQL</li>
+</ul>
+</section>
+
+<section id="projetos">
+<h2>Projetos</h2>
+<article>
+<h3>Landing Page</h3>
+<p>Projeto de apresentação profissional com HTML e CSS puro.</p>
+</article>
+<article>
+<h3>Docker + Apache</h3>
+<p>Criação de container web usando Docker e Apache.</p>
+</article>
+<article>
+<h3>Banco de Dados MySQL</h3>
+<p>Modelagem e consultas SQL com relacionamentos.</p>
+</article>
+<article>
+<h3>Infraestrutura Cloud</h3>
+<p>Práticas com AWS (EC2, S3 e IAM).</p>
+</article>
+</section>
+
+<aside id="extras">
+<h2>Informações Extras</h2>
+<p>Aprendizado contínuo em tecnologia</p>
+<p>Cloud Computing e DevOps</p>
+<p>Automação com Docker</p>
+<p>Foco em carreira em Infraestrutura</p>
+<p>Gosto de jogos, filmes, séries e livros</p>
+<p>Gosto de viajar e conhecer novos lugares</p>
+</aside>
+
+<section id="contato">
+<h2>Contato</h2>
+<p>Email: vandetone@hotmail.com</p>
+<p>
+GitHub:
+<a href="https://github.com/Vanessa-Detone" target="_blank">github.com/Vanessa-Detone</a>
+</p>
+<p>
+LinkedIn:
+<a href="https://www.linkedin.com/in/vanessa-pereira-059a67368" target="_blank">linkedin.com/in/vanessa-pereira-059a67368</a>
+</p>
+</section>
+</main>
+
+<!-- TEXTO DO RODAPÉ ORGANIZADO COM PARÁGRAFOS SEMÂNTICOS -->
+<footer>
+<p>Email: vandetone@hotmail.com</p>
+<p>© 2026 Vanessa Detone Pereira Menezes</p>
+<p style="margin-top: 15px; font-size: 0.9rem; color: #8A99AD;">
+A aplicação encontra-se em ambiente de produção utilizando a infraestrutura do GitHub Pages através do link:
+<a href="https://vanessa-detone.github.io/landing-page/" target="_blank">vanessa-detone.github.io/landing-page/</a>
+</p>
+</footer>
+</body>
